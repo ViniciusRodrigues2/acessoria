@@ -52,7 +52,7 @@
 }
 
 .form-section h2 {
-  font-size: clamp(0.9em, 5vh, 1.2em);
+  font-size: clamp(0.8em, 5vh, 1.3em);
   text-transform: uppercase;
   font-weight: var(--weight-600);
   text-align: center;
