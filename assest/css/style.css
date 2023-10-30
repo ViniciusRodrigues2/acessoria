@@ -16,12 +16,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
-  padding: 0 1.7em;
+  height: 100%;
+  padding: 10px 15px;
 }
 
 .container .logo {
-  color: #303030;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #0bb33d, #1bff5f);
+  border-radius: 4px;
 }
 
 .container .btn .btn-buy {
@@ -29,7 +32,7 @@
 }
 
 .container .btn .btn-buy {
-  background-color: #11cc49;
+  background: linear-gradient(45deg, #0bb33d, #1bff5f);
   border: none;
   padding: 0.9em 1.2em;
   color: white;
@@ -74,7 +77,7 @@
 }
 
 .form-section .form input[type=button] {
-  background-color: #1bff5f;
+  background: linear-gradient(45deg, #0bb33d, #16cc4d, #2cfd6b);
   padding: 0.6em;
   font-size: 1.3em;
   font-weight: var(--weight-600);
@@ -83,4 +86,5 @@
   margin: 0.7em auto;
   cursor: pointer;
   border-radius: 2px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

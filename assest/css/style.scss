@@ -16,17 +16,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
-    padding: 0 1.7em;
+    height: 100%;
+    padding: 10px 15px;
 }
 .container .logo{
-    color: #303030;
+    
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(45deg,#0bb33d,#1bff5f);
+    border-radius: 4px;
 }
 .container .btn .btn-buy{
     cursor: pointer;
 }
 .container .btn .btn-buy{
-    background-color: #11cc49;
+    background:linear-gradient(45deg,#0bb33d,#1bff5f);
     border:none;
     padding: .90em 1.2em;
     color: white;
@@ -67,7 +71,7 @@
     color: #1bff5f;
 }
 .form-section .form input[type="button"]{
-    background-color: #1bff5f;
+    background:linear-gradient(45deg,#0bb33d,#16cc4d,#2cfd6b);
     padding: .60em;
     font-size: 1.3em;
     font-weight: var(--weight-600);
@@ -76,4 +80,5 @@
     margin: .70em auto;
     cursor: pointer;
     border-radius: 2px;
+    color: #ffffff;
 }
