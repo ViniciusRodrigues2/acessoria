@@ -52,7 +52,7 @@
 }
 
 .form-section h2 {
-  font-size: clamp(30px, 5vh, 25px);
+  font-size: clamp(0.9em, 8vh, 1.3em);
   text-transform: uppercase;
   font-weight: var(--weight-600);
   text-align: center;
@@ -68,17 +68,19 @@
 }
 
 .form-section .form label {
-  font-size: 1.2em;
+  font-size: 0.9em;
   padding: 0.3em 0;
   color: #1bff5f;
 }
 
 .form-section .form input[type=button] {
   background-color: #1bff5f;
+  padding: 0.6em;
   font-size: 1.3em;
   font-weight: var(--weight-600);
   text-transform: uppercase;
-  width: 50%;
+  width: 70%;
   margin: 0.7em auto;
   cursor: pointer;
+  border-radius: 2px;
 }/*# sourceMappingURL=style.css.map */
