@@ -125,3 +125,43 @@
 .funciona .about-profile .profile-ctn .img-ctn img{
     width: 100%;
 }
+.why-acquire{
+    --background: #0bb33d;
+    background-color:var(--background);
+}
+
+.why-acquire .why-ctn h2{
+    --font-size: clamp(1.2em,5vh,1.8em);
+    text-align: center;
+    font-size:var(--font-size);
+    text-transform: uppercase;
+    padding: 1.4em 0;
+    color: #ffffff;
+}
+
+.why-acquire .why-flex{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.why-acquire .why-flex .profile-ctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin: 0 1.2em;
+    padding: 1.2em 0;
+}
+.why-acquire .why-flex .profile-ctn .profile-titulo h3{
+    color: yellow;
+    padding: .50em 0;
+}
+.why-acquire .why-flex .profile-ctn .img-ctn{
+    max-width: 150px;
+    width: 100%;
+}
+.why-acquire .why-flex .profile-ctn .img-ctn img{
+    width: 100%;
+}
