@@ -6,9 +6,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 :root{
     --margin-form-section: .80em;
-    --weight-600: 700;
+    --weight: 700;
 }
 
 .container{
@@ -51,10 +52,10 @@
     display: grid;
     margin: .90em;
 }
-.form-section h2{
+.form-section h1{
     font-size: clamp(.80em,5vh,1.3em);
     text-transform: uppercase;
-    font-weight: var(--weight-600);
+    font-weight: var(--weight);
     text-align: center;
     margin-top: 20px;
     color: whitesmoke;
