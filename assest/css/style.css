@@ -10,6 +10,7 @@
   --margin-form-section: .80em;
   --weight: 700;
   --gradient-prymari:linear-gradient(45deg,#0bb33d,#1bff5f);
+  --color-text: rgb(255, 255, 255);
 }
 
 .container {
@@ -167,7 +168,7 @@
 }
 
 .why-acquire .why-flex .profile-ctn .profile-titulo h3 {
-  color: yellow;
+  color: var(--color-text);
   padding: 0.5em 0;
 }
 
@@ -178,4 +179,51 @@
 
 .why-acquire .why-flex .profile-ctn .img-ctn img {
   width: 100%;
+}
+
+.services-cta {
+  background-color: #0bb33d;
+  padding: 1.3em 0;
+}
+
+.services-cta .services-ctn {
+  text-align: center;
+}
+
+.services-cta .services-ctn h2 {
+  --font-size: clamp(1.2em,5vh,1.8em);
+  text-align: center;
+  font-size: var(--font-size);
+  text-transform: uppercase;
+  padding: 1.4em 0;
+  color: #ffffff;
+}
+
+.services-cta .services-flex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 20px;
+}
+
+.services-cta .services-flex .profile-ctn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin: 0 1.2em;
+  padding: 1.2em 0;
+}
+
+.services-cta .services-flex .profile-ctn .img-ctn {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.services-cta .services-flex .profile-ctn .img-ctn img {
+  width: 100%;
+}
+
+.services-cta .services-flex .profile-ctn .profile-titulo h3 {
+  color: var(--color-text);
+  text-align: center;
+  padding: 0.5em 0;
 }/*# sourceMappingURL=style.css.map */
