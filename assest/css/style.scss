@@ -206,3 +206,68 @@
     text-align: center;
     padding: 0.50em 0;
 }
+.contract-terms{
+    width: 100%;
+}
+.contract-terms h2{
+    --font-size:clamp(2em,5vw,1.8em);
+    font-size: var(--font-size);
+    text-align: center;
+    margin: 2em 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.contract-terms p{
+    --font-size:clamp(1.2em,5vw,1.4em);
+    font-size: var(--font-size);
+    margin: 0 1.20em 0 1.20em;
+    line-height: 1.8;
+}
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    height: 100%;
+    padding: 1.4em 1.2em;
+    margin-top: 1.4em;
+    flex-wrap: wrap;
+}
+.rodape .logo{
+    width: 50px;
+    height: 50px;
+    background:var(--gradient-prymari);
+    border-radius: 4px;
+}
+.rodape .copy p{
+    color:white;
+    font-size: clamp(.60em,5vw,1.2em);
+}
+.rodape .butoon button{
+    background: var(--gradient-prymari);
+    border: none;
+    padding: .90em 1.2em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.rodape .butoon button a{
+    font-size: .80em;
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:620px){
+    .rodape{
+        justify-content: center;
+    }
+.rodape .butoon{
+    margin-top: 1.3em;
+}
+.rodape .copy{
+    margin-top: 1.3em;
+
+}
+}
