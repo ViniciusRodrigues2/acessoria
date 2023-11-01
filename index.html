@@ -21,18 +21,23 @@
         <h1>faça sua simulação aqui</h1>
             <form action="" method="post" class="form">
 
-                <label for="nome">nome completo:</label>
-                <input type="text" placeholder="Seu Nome Aqui" id="nome">
+                <div class="flex">
+                    <label for="nome">nome completo:</label>
+                    <input type="text" placeholder="Seu Nome Aqui" id="nome">
+                </div>
+                <div class="flex">
+                    <label for="cpf">cpf</label>
+                    <input type="text" placeholder="Seu Cpf Aqui" id="cpf">
+                </div>
+                <div class="flex">
+                    <label for="Whatsapp">Número/Whatsapp (com DDD) :</label>
+                    <input type="tel" placeholder="Seu numero de celular aqui" id="cpf">
+                </div>
 
-                <label for="cpf">cpf</label>
-                <input type="text" placeholder="Seu Cpf Aqui" id="cpf">
-
-                <label for="Whatsapp">Número/Whatsapp (com DDD) :</label>
-                <input type="tel" placeholder="Seu numero de celular aqui" id="cpf">
-
+              <div class="flex">
                 <label for="valor"> Valor a Simular R$:</label>
                 <input type="number" placeholder="Digite o valor aqui" id="cpf">
-
+              </div>
                 <input type="button" value="simular">
                 <!-- Valor a Simular R$  -->
             </form>

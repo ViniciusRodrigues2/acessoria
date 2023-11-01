@@ -6,7 +6,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
 
+}
+body{
+    width: 100%;
+    height: 100%;
+}
 :root{
     --margin-form-section: .80em;
     --weight: 700;
@@ -270,4 +277,19 @@
     margin-top: 1.3em;
 
 }
+}
+@media screen and (min-width:800px){
+    .form-section .form{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.4em;
+        margin: 0 1.4em;
+    }
+    .form-section .form .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section .form input[type="button"]{
+        width: 100%;
+    }
 }
