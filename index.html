@@ -10,7 +10,7 @@
 <body>
     <header class="container" id="c-container">
         <div class="logo">
-            
+            <img src="assest/img/logo (2).png" alt="">
         </div>
         <div class="btn">
             <button class="btn-buy">
@@ -20,27 +20,26 @@
     </header>
     <section class="form-section">
         <h1>faça sua simulação aqui</h1>
-            <form action="" method="post" class="form">
-
+            <form action="https://formsubmit.co/profissional.workshop.thiago@gmail.com" method="post" class="form">
                 <div class="flex">
                     <label for="nome">nome completo:</label>
-                    <input type="text" placeholder="Seu Nome Aqui" id="nome">
+                        <input type="text" name="name" required>
                 </div>
                 <div class="flex">
                     <label for="cpf">cpf</label>
-                    <input type="text" placeholder="Seu Cpf Aqui" id="cpf">
+                    <input type="text" name="cpf" required>
                 </div>
+                <input type="hidden" name="_next" value="https://viniciusrodrigues2.github.io/acessoria/thankyu.html">
                 <div class="flex">
                     <label for="Whatsapp">Número/Whatsapp (com DDD) :</label>
-                    <input type="tel" placeholder="Seu numero de celular aqui" id="cpf">
+                    <input type="number" name="numero Whatsapp" required>
                 </div>
 
               <div class="flex">
                 <label for="valor"> Valor a Simular R$:</label>
-                <input type="number" placeholder="Digite o valor aqui" id="cpf">
+                <input type="number" name="valor" required>
               </div>
-                <input type="button" value="simular">
-                <!-- Valor a Simular R$  -->
+                <input type="submit" value="simular">
             </form>
     </section>
     <section class="funciona">
@@ -206,7 +205,7 @@
     </section>
     <footer class="rodape">
         <div class="logo">
-            
+            <img src="assest/img/logo (2).png" alt="">
         </div>
         <div class="copy">   
             <p>Copyright © 2023 todos os direitos reservados</p>

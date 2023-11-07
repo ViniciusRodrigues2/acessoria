@@ -31,10 +31,10 @@ body{
     padding: 10px 15px;
 }
 .container .logo{
-    width: 50px;
-    height: 50px;
-    background:var(--gradient-prymari);
-    border-radius: 4px;
+    max-width: 50px;
+}
+.container .logo img{
+    width: 100%;
 }
 .container .btn .btn-buy{
     cursor: pointer;
@@ -86,13 +86,13 @@ body{
     padding: .30em 0;
     color:var(--color-prymari-label);
 }
-.form-section .form input[type="button"]{
+.form-section .form input[type="submit"]{
     background:var(--gradient-prymari);
     padding: .60em;
     font-size: 1.3em;
     font-weight: var(--weight);
     text-transform: uppercase;
-    width: 70%;
+    width: 100%;
     margin: .70em auto;
     cursor: pointer;
     border-radius: 2px;
@@ -249,10 +249,10 @@ body{
     flex-wrap: wrap;
 }
 .rodape .logo{
-    width: 50px;
-    height: 50px;
-    background:var(--gradient-prymari);
-    border-radius: 4px;
+   max-width: 50px;
+}
+.rodape .logo img{
+    width: 100%;
 }
 .rodape .copy p{
     color:white;
