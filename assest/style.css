@@ -11,11 +11,12 @@ body{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: linear-gradient(45deg, rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url('/assest/img/nuvens-brancas-dramaticas-e-ceu-azul-da-vista-da-janela-do-aviao-fundo-colorido-do-por-do-sol-cloudscape.jpg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url('/assest/img/nuvens-brancas-dramaticas-e-ceu-azul-da-vista-da-janela-do-aviao-fundo-colorido-do-por-do-sol-cloudscape.jpg');
     background-size: cover;
     background-position: center center;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }  
 h2{
     border: 1px solid white;
@@ -25,4 +26,11 @@ h2{
     text-transform: uppercase;
     font-weight: 800;
     margin: 20px;
+}
+p{
+    color: white;
+    margin: .30em 0;
+}
+p:nth-child(2){
+    text-transform: uppercase;
 }
